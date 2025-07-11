@@ -1,4 +1,4 @@
-name: Generate ASCII Workflow
+name: Use uploads and download artifacts
 
 on: push
 
