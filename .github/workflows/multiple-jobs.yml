@@ -23,7 +23,7 @@ jobs:
         runs-on: ubuntu-latest #different machine from the previous job
         steps:
          - name: Download the dragon text file
-           uses: actions/download-artifact@v4.6.2
+           uses: actions/download-artifact@v4.3.0
            with:
             name : dragon-text-file
             
@@ -35,7 +35,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Download the dragon text file
-              uses: actions/download-artifact@v3
+              uses: actions/download-artifact@v4.3.0
               with:
                 name: dragon-text-file
                 
